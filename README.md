@@ -1,2 +1,2 @@
 # Cursos-ADA
-cursos ADA Javascript e React
+cursos ADA Javascript e HTML
