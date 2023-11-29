@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <main>
+        <h1>Formulário</h1>
+        <hr>
+
+        <form>
+            <div>
+                <label for="texto">Nome</label><br>
+                <input type="text" id="texto" name="nome" placeholder="Digite seu nome...">
+            </div>
+
+            <div>
+                <br>
+                <label for="senha">Senha</label><br>
+                <input type="password" id="senha" name="senha" placeholder="Digite sua senha">
+            </div>
+
+            <div>
+                <br>
+                <label for="email">email</label><br>
+                <input type="email" id="email" name="email" placeholder="exemplo@email.com">
+            </div>
+
+            <div>
+                <br>
+                <label for="data">Data de Nascimento</label>
+                <input type="date" id="data" name="data">
+            </div>
+
+            <div>
+                <br>
+                <label for="hora">Horário:</label>
+                <input type="time" id="hora" name="hora">
+            </div>
+
+            <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+
+            <br><br>
+
+            <div>
+            <select name="select" id="select">
+                <option value="" disabled selected>Selecione uma das opções</option>
+                <option value="receita">Receita</option>
+                <option value="despesa">Despesas</option>
+                <option value="transferencia">Transferência</option>
+            </select>
+            </div>
+
+            <div>
+                <br>
+                <input type="submit" id="enviar" value="Enviar">
+                <input type="reset" id="reset" value="Limpar">
+            </div>
+
+        </form>
+    </main>
+</body>
+</html>
